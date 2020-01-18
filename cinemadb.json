@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstName": "Michele",
+            "lastName": "Vendrame",
+            "birthDate": "04/10/1999",
+            "email": "vendramemichele99@gmail.com"
+        }
+    ]
+}

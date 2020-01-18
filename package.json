@@ -1,0 +1,22 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Fake REST Api for testing",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch cinemadb.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortilus/CinemaJsonServer.git"
+  },
+  "author": "Michele Vendrame",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mortilus/CinemaJsonServer/issues"
+  },
+  "homepage": "https://github.com/mortilus/CinemaJsonServer#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
