@@ -7,15 +7,41 @@
       "birthDate": "10/04/1999",
       "email": "vendramemichele99@gmail.com",
       "password": "test",
-      "role": "admin"
+      "role": "admin",
+      "reservations": [
+        {
+          "userId": 1,
+          "movieId": 1,
+          "reservedSeats": 3,
+          "date": "today",
+          "time": "4:00 PM",
+          "id": 13
+        },
+        {
+          "userId": 1,
+          "movieId": 8,
+          "reservedSeats": 1,
+          "date": "tommorow",
+          "time": "1:00 PM",
+          "id": 15
+        },
+        {
+          "userId": 1,
+          "movieId": 2,
+          "reservedSeats": 2,
+          "date": "today",
+          "time": "4:20 PM",
+          "id": 16
+        }
+      ]
     },
     {
       "id": 2,
-      "firstName": "Mauro",
-      "lastName": "Celentano",
-      "birthDate": "12/23/2003",
-      "email": "maurocelentano@gmail.com",
-      "password": "test1",
+      "firstName": "Angelo",
+      "lastName": "Angelini",
+      "birthDate": "12/23/2007",
+      "email": "angeloangelini@gmail.com",
+      "password": "test",
       "role": "user"
     },
     {
@@ -26,6 +52,112 @@
       "email": "maurocelentano@gmail.com",
       "password": "test2",
       "role": "user"
+    },
+    {
+      "firstName": "Test",
+      "lastName": "Test",
+      "birthDate": "11/1/2020",
+      "email": "email@gmail.com",
+      "password": "12324341234",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "firstName": "Dario",
+      "lastName": "Dannunzio",
+      "birthDate": "11/1/2020",
+      "email": "dario@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "firstName": "Gianfranco",
+      "lastName": "Giuseppino",
+      "birthDate": "5/1/2020",
+      "email": "giuseppe@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "firstName": "Luca",
+      "lastName": "Ettore",
+      "birthDate": "12/1/2020",
+      "email": "ettore@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "firstName": "Dario",
+      "lastName": "Dannunzio",
+      "birthDate": "11/1/2020",
+      "email": "dario@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "firstName": "Gianfranco",
+      "lastName": "Giuseppino",
+      "birthDate": "5/1/2020",
+      "email": "giuseppe@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 9,
+      "reservations": []
+    },
+    {
+      "firstName": "Luca",
+      "lastName": "Ettore",
+      "birthDate": "12/1/2020",
+      "email": "ettore@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 10
+    },
+    {
+      "firstName": "Dario",
+      "lastName": "Dannunzio",
+      "birthDate": "11/1/2020",
+      "email": "dario@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 11
+    },
+    {
+      "firstName": "Gianfranco",
+      "lastName": "Giuseppino",
+      "birthDate": "5/1/2020",
+      "email": "giuseppe@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 12
+    },
+    {
+      "firstName": "Luca",
+      "lastName": "Ettore",
+      "birthDate": "12/1/2020",
+      "email": "ettore@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 13
+    },
+    {
+      "movieId": 1,
+      "userId": 3,
+      "reservedSeats": 6,
+      "id": 14
+    },
+    {
+      "firstName": "Lukas",
+      "lastName": "Fischnaller",
+      "birthDate": "2/2/1994",
+      "email": "lukas@gmail.com",
+      "password": "testtest",
+      "role": "user",
+      "id": 15
     }
   ],
   "movies": [
@@ -417,35 +549,54 @@
   "reservations": [
     {
       "userId": 1,
-      "movieId": 4,
-      "reservedSeats": 4,
-      "date": "today",
-      "time": "4:00 PM",
-      "id": 6
-    },
-    {
-      "userId": 1,
-      "movieId": 4,
-      "reservedSeats": 10,
-      "date": "today",
-      "time": "4:00 PM",
-      "id": 7
-    },
-    {
-      "userId": 1,
-      "movieId": 1,
-      "reservedSeats": 2,
-      "date": "today",
-      "time": "1:00 PM",
-      "id": 8
-    },
-    {
-      "userId": 1,
       "movieId": 1,
       "reservedSeats": 3,
+      "date": "today",
+      "time": "4:00 PM",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "movieId": 8,
+      "reservedSeats": 1,
       "date": "tommorow",
-      "time": "6:00 PM",
-      "id": 9
+      "time": "1:00 PM",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "movieId": 2,
+      "reservedSeats": 2,
+      "date": "today",
+      "time": "4:20 PM",
+      "id": 16
+    },
+    {
+      "userId": 15,
+      "movieId": 1,
+      "reservedSeats": 3,
+      "date": "today",
+      "time": "1:00 PM",
+      "id": 17
+    },
+    {
+      "userId": 15,
+      "movieId": 4,
+      "reservedSeats": 2,
+      "date": "today",
+      "time": "4:00 PM",
+      "id": 18
     }
-  ]
+  ],
+  "fedelitycards": [
+    {
+      "id": 1,
+      "userId": 1,
+      "code": "ASHDBSAI2173NSAJK"
+    }
+  ],
+  "bookingsettings": {
+    "maximumAmountBookings": 8,
+    "pricePerTicket": 12
+  }
 }
