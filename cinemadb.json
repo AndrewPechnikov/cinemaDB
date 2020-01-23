@@ -27,11 +27,19 @@
         },
         {
           "userId": 1,
-          "movieId": 2,
-          "reservedSeats": 2,
-          "date": "today",
+          "movieId": 3,
+          "reservedSeats": 3,
+          "date": "tommorow",
           "time": "4:20 PM",
-          "id": 16
+          "id": 19
+        },
+        {
+          "userId": 1,
+          "movieId": 3,
+          "reservedSeats": 5,
+          "date": "today",
+          "time": "1:45 PM",
+          "id": 20
         }
       ]
     },
@@ -41,8 +49,9 @@
       "lastName": "Angelini",
       "birthDate": "12/23/2007",
       "email": "angeloangelini@gmail.com",
-      "password": "test",
-      "role": "user"
+      "password": "testtest",
+      "role": "user",
+      "reservations": []
     },
     {
       "id": 3,
@@ -60,7 +69,8 @@
       "email": "email@gmail.com",
       "password": "12324341234",
       "role": "user",
-      "id": 4
+      "id": 4,
+      "reservations": []
     },
     {
       "firstName": "Dario",
@@ -158,6 +168,24 @@
       "password": "testtest",
       "role": "user",
       "id": 15
+    },
+    {
+      "firstName": "adsf",
+      "lastName": "adsf",
+      "birthDate": "10/1/2020",
+      "email": "123",
+      "password": "121212",
+      "role": "user",
+      "id": 16
+    },
+    {
+      "firstName": "asdf",
+      "lastName": "adsf",
+      "birthDate": "3/1/2020",
+      "email": "adsf",
+      "password": "asfasdfasdfasdf",
+      "role": "user",
+      "id": 17
     }
   ],
   "movies": [
@@ -564,14 +592,6 @@
       "id": 15
     },
     {
-      "userId": 1,
-      "movieId": 2,
-      "reservedSeats": 2,
-      "date": "today",
-      "time": "4:20 PM",
-      "id": 16
-    },
-    {
       "userId": 15,
       "movieId": 1,
       "reservedSeats": 3,
@@ -586,6 +606,22 @@
       "date": "today",
       "time": "4:00 PM",
       "id": 18
+    },
+    {
+      "userId": 1,
+      "movieId": 3,
+      "reservedSeats": 3,
+      "date": "tommorow",
+      "time": "4:20 PM",
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "movieId": 3,
+      "reservedSeats": 5,
+      "date": "today",
+      "time": "1:45 PM",
+      "id": 20
     }
   ],
   "fedelitycards": [
@@ -596,7 +632,7 @@
     }
   ],
   "bookingsettings": {
-    "maximumAmountBookings": 8,
+    "maximumAmountBookings": 5,
     "pricePerTicket": 12
   }
 }
