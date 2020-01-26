@@ -11,35 +11,35 @@
       "reservations": [
         {
           "userId": 1,
-          "movieId": 1,
-          "reservedSeats": 3,
-          "date": "today",
-          "time": "4:00 PM",
-          "id": 13
-        },
-        {
-          "userId": 1,
-          "movieId": 8,
-          "reservedSeats": 1,
-          "date": "tommorow",
-          "time": "1:00 PM",
-          "id": 15
-        },
-        {
-          "userId": 1,
           "movieId": 3,
-          "reservedSeats": 3,
+          "reservedSeats": 40,
           "date": "tommorow",
           "time": "4:20 PM",
           "id": 19
         },
         {
           "userId": 1,
-          "movieId": 3,
-          "reservedSeats": 5,
+          "movieId": 4,
+          "reservedSeats": 4,
           "date": "today",
-          "time": "1:45 PM",
-          "id": 20
+          "time": "1:00 PM",
+          "id": 23
+        },
+        {
+          "userId": 1,
+          "movieId": 1,
+          "reservedSeats": 6,
+          "date": "today",
+          "time": "1:00 PM",
+          "id": 24
+        },
+        {
+          "userId": 1,
+          "movieId": 1,
+          "reservedSeats": 3,
+          "date": "tommorow",
+          "time": "10:00 PM",
+          "id": 25
         }
       ]
     },
@@ -186,6 +186,34 @@
       "password": "asfasdfasdfasdf",
       "role": "user",
       "id": 17
+    },
+    {
+      "firstName": "Carlo",
+      "lastName": "Vendrame",
+      "birthDate": "3/1/2020",
+      "email": "carlo@gmail.com",
+      "password": "test",
+      "role": "user",
+      "id": 18,
+      "reservations": [
+        {
+          "userId": 18,
+          "movieId": 1,
+          "reservedSeats": 2,
+          "date": "tommorow",
+          "time": "10:00 PM",
+          "id": 22
+        }
+      ]
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Casagrande",
+      "birthDate": "10/1/2020",
+      "email": "lisa@gmail.com",
+      "password": "test12",
+      "role": "user",
+      "id": 19
     }
   ],
   "movies": [
@@ -193,11 +221,11 @@
       "id": 1,
       "imdbId": "tt2386490",
       "imdbRating": 8.1,
-      "title": "How to Train Your Dragon: The Hidden World",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMDIwNjAyOF5BMl5BanBnXkFtZTgwNDE1MDc2NTM@._V1_SX300.jpg",
-      "backdrop": "https://m.media-amazon.com/images/M/MV5BMTg1MjMyOTQ2MV5BMl5BanBnXkFtZTgwNDA5NDcxNzM@._V1_.jpg",
+      "title": "Ad Astra",
+      "poster": "http://image.tmdb.org/t/p/w500/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg",
+      "backdrop": "http://image.tmdb.org/t/p/original/5BwqwxMEjeFtdknRV792Svo0K1v.jpg",
       "trailer": "https://www.youtube.com/watch?v=OFeI5ohUVSA",
-      "overview": "The adventures of Hiccup and Toothless continue in the third part of the beloved How to Train Your Dragon series. But when Toothless meets a new love interest and there’s a threat in the village, their friendship is tested like never before. A DreamWorks animation featuring Jay Baruchel, Cate Blanchett, Kristen Wiig and T.J. Miller.",
+      "overview": "The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown.",
       "director": "Dean DeBlois",
       "cast": [
         "Jay Baruchel",
@@ -206,7 +234,7 @@
         "Gerard Butler",
         "Jonah Hill"
       ],
-      "release_date": "02/01/2019",
+      "release_date": "2019-09-17",
       "showing": "02/01/2019",
       "runtime": 104,
       "mpaa": "PG"
@@ -215,11 +243,11 @@
       "id": 2,
       "imdbId": "tt0437086",
       "imdbRating": 6,
-      "title": "Alita: Battle Angel",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzVhMjcxYjYtOTVhOS00MzQ1LWFiNTAtZmY2ZmJjNjIxMjllXkEyXkFqcGdeQXVyNTc5OTMwOTQ@._V1_SX300.jpg",
-      "backdrop": "https://m.media-amazon.com/images/M/MV5BMzI3MTc2NDY4MV5BMl5BanBnXkFtZTgwNDU3NTI2NjM@._V1_SX1777_CR0,0,1777,736_AL_.jpg",
+      "title": "Bad Boys for Life",
+      "poster": "http://image.tmdb.org/t/p/original/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
+      "backdrop": "http://image.tmdb.org/t/p/original/iUspPEAjhUUrLYKntTnKupt3eqV.jpg",
       "trailer": "https://www.youtube.com/watch?v=w7pYhpJaJW8",
-      "overview": "An action-packed story of one young woman's journey to discover the truth of who she is and her fight to change the world.",
+      "overview": "Marcus and Mike are forced to confront new threats, career changes, and midlife crises as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel.",
       "director": "Robert Rodriguez",
       "cast": [
         "Eiza González",
@@ -235,11 +263,11 @@
       "id": 3,
       "imdbId": "tt6823368",
       "imdbRating": 7.3,
-      "title": "Glass",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTA2MjI5OV5BMl5BanBnXkFtZTgwNzkxMjU4NjM@._V1_SX300.jpg",
-      "backdrop": "https://m.media-amazon.com/images/M/MV5BY2IwMWE4YjctNTVlMy00MDUwLTkxOGYtMmJlNDEwYmViN2YxXkEyXkFqcGdeQXVyMzQ5ODY3NjA@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+      "title": "1917",
+      "poster": "http://image.tmdb.org/t/p/original/AuGiPiGMYMkSosOJ3BQjDEAiwtO.jpg",
+      "backdrop": "http://image.tmdb.org/t/p/original/ds9GKAMhxv5AbprmZ2xCpK8FiEG.jpg",
       "trailer": "https://www.youtube.com/watch?v=95ghQs5AmNk",
-      "overview": "Starring an incredible trio of Bruce Willis, Samuel L. Jackson, and James McAvoy, Glass is the latest film from director M. Night Shyamalan and follows the stories of David Dunn and Kevin Crumb, who come up against each other as Dunn pursues The Beast, determined to put an end to the superhuman nightmare. When the mysterious Elijah Price, aka Mr. Glass, reappears in Dunn’s life, the three men are forced to accept they’re part of something much larger – and it’s Mr. Glass who holds the secrets that could change everything. Anya Taylor-Joy returns as Casey Cooke, and Sarah Paulson stars as psychologist Dr. Ellie Staple, who is drawn into the men’s parallel reality.",
+      "overview": "At the height of the First World War, two young British soldiers, Schofield and Blake are given a seemingly impossible mission. In a race against time, they must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers—Blake's own brother among them.",
       "director": "M. Night Shyamalan",
       "cast": [
         "Samuel L. Jackson",
@@ -257,11 +285,11 @@
       "id": 4,
       "imdbId": "tt1477834",
       "imdbRating": 7.5,
-      "title": "Aquaman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SX300.jpg",
-      "backdrop": "https://m.media-amazon.com/images/M/MV5BMzI3MTc2NDY4MV5BMl5BanBnXkFtZTgwNDU3NTI2NjM@._V1_SX1777_CR0,0,1777,736_AL_.jpg",
+      "title": "Joker",
+      "poster": "http://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+      "backdrop": "http://image.tmdb.org/t/p/original/n6bUvigpRFqSwmPp1m2YADdbRBc.jpg",
       "trailer": "https://www.youtube.com/watch?v=WDkg3h8PCVU",
-      "overview": "The reluctant King of Atlantis is torn between his two homes as surface dwellers and the citizens of Atlantis collide. Following on from the events of Justice League, Aquaman stars Jason Momoa as the half-Atlantean, alongside Amber Heard, Patrick Wilson, Willem Dafoe and Nicole Kidman.",
+      "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
       "director": "James Wan",
       "cast": [
         "Jason Momoa",
@@ -279,11 +307,11 @@
       "id": 5,
       "imdbId": "tt5028340",
       "imdbRating": 7.2,
-      "title": "Mary Poppins Returns",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTk0NDIzMTA1MF5BMl5BanBnXkFtZTgwMzM0MTUzNjM@._V1_SX300.jpg",
-      "backdrop": "https://m.media-amazon.com/images/M/MV5BMzI3MTc2NDY4MV5BMl5BanBnXkFtZTgwNDU3NTI2NjM@._V1_SX1777_CR0,0,1777,736_AL_.jpg",
+      "title": "Terminator: Dark Fate",
+      "poster": "http://image.tmdb.org/t/p/original/vqzNJRH4YyquRiWxCCOH0aXggHI.jpg",
+      "backdrop": "http://image.tmdb.org/t/p/original/riTANvQ8GKmQbgtC1ps3OfkU43A.jpg",
       "trailer": "https://www.youtube.com/watch?v=PzcaR1N0pTI",
-      "overview": "It’s 1930s London and everyone’s favourite nanny has returned – Mary Poppins (Emily Blunt) is ready to spread joy and magic in the much-anticipated sequel to the 1964 classic. This time, she finds that the Banks children have grown up and found themselves in need of a friendly face – as well as a little bit of magic. A Disney musical and sequel starring Emily Blunt, Lin-Manuel Miranda, and Ben Wishaw, along with Dick Van Dyke, Emily Mortimer, Colin Firth, and Meryl Streep.",
+      "overview": "Decades after Sarah Connor prevented Judgment Day, a lethal new Terminator is sent to eliminate the future leader of the resistance. In a fight to save mankind, battle-hardened Sarah Connor teams up with an unexpected ally and an enhanced super soldier to stop the deadliest Terminator yet.",
       "director": "Rob Marshall",
       "cast": [
         "Emily Blunt",
@@ -301,11 +329,11 @@
       "id": 6,
       "imdbId": "tt6966692",
       "imdbRating": 8.3,
-      "title": "Green Book",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNzExNzQ5OV5BMl5BanBnXkFtZTgwNjM2MjIxNjM@._V1_SX300.jpg",
-      "backdrop": "https://m.media-amazon.com/images/M/MV5BMzI3MTc2NDY4MV5BMl5BanBnXkFtZTgwNDU3NTI2NjM@._V1_SX1777_CR0,0,1777,736_AL_.jpg",
+      "title": "Ip Man 4: The Finale",
+      "poster": "http://image.tmdb.org/t/p/original/yJdeWaVXa2se9agI6B4mQunVYkB.jpg",
+      "backdrop": "http://image.tmdb.org/t/p/original/ekP6EVxL81lZ4ivcqPsoZ72rY0h.jpg",
       "trailer": "https://www.youtube.com/watch?v=QkZxoko_HC0",
-      "overview": "Two unlikely travelling companions must navigate the terrifying racism of the deep south in 1962, in this road-trip comedy-drama based on a true story. Directed by Peter Farrelly, Green Book stars Academy Award winner Mahershala Ali and two-time nominee Viggo Mortensen, alongside Linda Cardellini.",
+      "overview": "Following the death of his wife, Ip Man travels to San Francisco to ease tensions between the local kung fu masters and his star student, Bruce Lee, while searching for a better future for his son.",
       "director": "Peter Farrelly",
       "cast": [
         "Mahershala Ali",
@@ -321,11 +349,11 @@
       "id": 7,
       "imdbId": "tt5848272",
       "imdbRating": 7.3,
-      "title": "Ralph Breaks the Internet",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_SX300.jpg",
-      "backdrop": "https://m.media-amazon.com/images/M/MV5BMzI3MTc2NDY4MV5BMl5BanBnXkFtZTgwNDU3NTI2NjM@._V1_SX1777_CR0,0,1777,736_AL_.jpg",
+      "title": "Star Wars: The Rise of Skywalker",
+      "poster": "http://image.tmdb.org/t/p/original/db32LaOibwEliAmSL2jjDF6oDdj.jpg",
+      "backdrop": "http://image.tmdb.org/t/p/original/jOzrELAzFxtMx2I4uDGHOotdfsS.jpg",
       "trailer": "https://www.youtube.com/watch?v=T73h5bmD8Dc",
-      "overview": "Just because he’s a Bad Guy, doesn’t mean he’s a bad guy. Ralph is back, and it’s on his wide shoulders to save Sugar Rush from extinction.",
+      "overview": "The surviving Resistance faces the First Order once again as the journey of Rey, Finn and Poe Dameron continues. With the power and knowledge of generations behind them, the final battle begins.",
       "director": "Phil Johnston, Rich Moore",
       "cast": [
         "Alan Tudyk",
@@ -341,11 +369,11 @@
       "id": 8,
       "imdbId": "tt5886046",
       "imdbRating": 6.4,
-      "title": "Escape Room",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ2NDMwMTY3MF5BMl5BanBnXkFtZTgwNDg5OTc1NjM@._V1_SX300.jpg",
-      "backdrop": "https://m.media-amazon.com/images/M/MV5BMzI3MTc2NDY4MV5BMl5BanBnXkFtZTgwNDU3NTI2NjM@._V1_SX1777_CR0,0,1777,736_AL_.jpg",
+      "title": "Jumanji: The Next Level",
+      "poster": "http://image.tmdb.org/t/p/original/jyw8VKYEiM1UDzPB7NsisUgBeJ8.jpg",
+      "backdrop": "http://image.tmdb.org/t/p/original/zTxHf9iIOCqRbxvl8W5QYKrsMLq.jpg",
       "trailer": "https://www.youtube.com/watch?v=6dSKUoV0SNI",
-      "overview": "Six strangers, all from wildly different walks of life, are invited to try out a brand-new escape room challenge and the chance to win a million dollars. But the hidden organisers have more planned than a puzzle… Escape Room is the latest horror from Insidious: Hidden Key director Adam Robitel, and stars Deborah Ann Woll, Taylor Russell, and Logan Miller.",
+      "overview": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.",
       "director": "Adam Robitel",
       "cast": [
         "Deborah Ann Woll",
@@ -576,22 +604,6 @@
   ],
   "reservations": [
     {
-      "userId": 1,
-      "movieId": 1,
-      "reservedSeats": 3,
-      "date": "today",
-      "time": "4:00 PM",
-      "id": 13
-    },
-    {
-      "userId": 1,
-      "movieId": 8,
-      "reservedSeats": 1,
-      "date": "tommorow",
-      "time": "1:00 PM",
-      "id": 15
-    },
-    {
       "userId": 15,
       "movieId": 1,
       "reservedSeats": 3,
@@ -610,18 +622,50 @@
     {
       "userId": 1,
       "movieId": 3,
-      "reservedSeats": 3,
+      "reservedSeats": 40,
       "date": "tommorow",
       "time": "4:20 PM",
       "id": 19
     },
     {
+      "userId": 18,
+      "movieId": 1,
+      "reservedSeats": 2,
+      "date": "tommorow",
+      "time": "10:00 PM",
+      "id": 22
+    },
+    {
       "userId": 1,
-      "movieId": 3,
-      "reservedSeats": 5,
+      "movieId": 4,
+      "reservedSeats": 4,
       "date": "today",
-      "time": "1:45 PM",
-      "id": 20
+      "time": "1:00 PM",
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "movieId": 1,
+      "reservedSeats": 6,
+      "date": "today",
+      "time": "1:00 PM",
+      "id": 24
+    },
+    {
+      "userId": 1,
+      "movieId": 1,
+      "reservedSeats": 3,
+      "date": "tommorow",
+      "time": "10:00 PM",
+      "id": 25
+    },
+    {
+      "userId": 19,
+      "movieId": 2,
+      "reservedSeats": 3,
+      "date": "today",
+      "time": "6:30 PM",
+      "id": 26
     }
   ],
   "fedelitycards": [
@@ -632,7 +676,7 @@
     }
   ],
   "bookingsettings": {
-    "maximumAmountBookings": 5,
+    "maximumAmountBookings": 6,
     "pricePerTicket": 12
   }
 }
